@@ -11,6 +11,9 @@ public class MainFX extends Application {
 	
 	Stage stage;
 	
+	/**
+	 * Construir la aplicación
+	 */
 	@Override
 	public void start(Stage stage){
 		
@@ -19,10 +22,17 @@ public class MainFX extends Application {
 		showProfile();
 	}
 	
+	/**
+	 * Arrancar la aplicación
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
 	
+	/**
+	 * Construir la ventana principal
+	 */
 	private void showProfile() {
 
 		try {

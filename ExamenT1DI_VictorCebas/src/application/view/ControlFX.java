@@ -35,6 +35,9 @@ public class ControlFX implements Initializable{
 	
 	Stage secondStage;
 	
+	/**
+	 * Controlador del botón btnInicio que construye la sengunda ventana y lo arranca
+	 */
 	@FXML
 	public void sendStage() {
 		
@@ -56,20 +59,32 @@ public class ControlFX implements Initializable{
 		}
 	}
 	
+	/**
+	 * Controlador del btnCancel
+	 */
 	@FXML
 	public void closeStage() {
 		secondStage.close();
 	}
 	
+	/**
+	 * Controlador del btnPasswd
+	 */
 	public void c_btnPasswd() {
 		System.out.println("Cambiar contraseña");
 	}
 	
+	/**
+	 * Controlador del btnSave
+	 */
 	public void c_btnSave() {
 		System.out.println("Datos guardados");
 		secondStage.close();
 	}
 
+	/**
+	 * Método para arrancar tipos de animaciones
+	 */
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 
