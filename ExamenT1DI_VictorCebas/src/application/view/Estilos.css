@@ -1,0 +1,31 @@
+.portada_superior{
+	-fx-background-image: url('assets/blueforest.jpg');
+}
+
+.portada_inferior{
+	-fx-background-color: #008080;
+}
+
+.boton{
+	-fx-background-color: orange;
+	-fx-text-fill: white;
+}
+
+.text1{
+	-fx-font-size: 30;
+	-fx-font-style: normal;
+}
+
+.text2{
+	-fx-font-size: 20;
+}
+
+.text3{
+	-fx-font-size: 12;
+	-fx-font-style: italic;
+	-fx-text-fill: gray;
+}
+
+.configuration_title{
+	-fx-font-size: 25;
+}
